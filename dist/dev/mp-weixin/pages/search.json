@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索页",
+  "usingComponents": {
+    "book-item": "/components/BookItem",
+    "search-bar": "/components/SearchBar"
+  }
+}

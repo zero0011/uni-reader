@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "user",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "book-item": "/components/BookItem"
+  }
+}

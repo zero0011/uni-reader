@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "阅读",
+  "usingComponents": {
+    "title-bar": "/components/TitleBar"
+  }
+}

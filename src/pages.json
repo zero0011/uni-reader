@@ -1,0 +1,89 @@
+{
+	"pages": [
+		{
+			"path": "pages/user",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "阅读"
+			}
+		},
+		{
+			"path": "pages/about",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		},
+		{
+			"path": "pages/history",
+			"style": {
+				"navigationBarTitleText": "历史页"
+			}
+		},
+		{
+			"path": "pages/chapter",
+			"style": {
+				"navigationBarTitleText": "章节详情"
+			}
+		},
+		{
+			"path": "pages/search",
+			"style": {
+				"navigationBarTitleText": "搜索页"
+			}
+		},
+		{
+			"path": "pages/details",
+			"style": {
+				"navigationBarTitleText": "书籍详情"
+			}
+		},
+		{
+			"path": "pages/source",
+			"style": {
+				"navigationBarTitleText": "换源"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "",
+		"selectedColor": "",
+		"list": [
+			{
+				"iconPath": "static/tabicons/me_0.png",
+				"selectedIconPath": "static/tabicons/me_1.png",
+				"pagePath": "pages/user",
+				"text": "主页"
+			},
+			{
+				"iconPath": "static/tabicons/forum_0.png",
+				"selectedIconPath": "static/tabicons/forum_1.png",
+				"pagePath": "pages/index",
+				"text": "阅读"
+			},
+			{
+				"iconPath": "static/tabicons/map_0.png",
+				"selectedIconPath": "static/tabicons/map_1.png",
+				"pagePath": "pages/about",
+				"text": "关于"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	}
+}

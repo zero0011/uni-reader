@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.history-page.data-v-08d2122b {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.history-container.data-v-08d2122b {
+  padding: 10px 20px;
+  flex: 1;
+  height: 0;
+  overflow: scroll;
+  font-size: 12px;
+}
+.history-title.data-v-08d2122b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.history-title ._span.data-v-08d2122b {
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+}
+.history-title .iconfont.data-v-08d2122b {
+  margin-right: 5px;
+  font-size: 14px;
+}
+.history-hotwords.data-v-08d2122b {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.history-hotwords ._li.data-v-08d2122b {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 10px 10px 0;
+}
+.history-hotwords ._li.data-v-08d2122b:nth-of-type(1) {
+  background-color: #03a9f4;
+}
+.history-hotwords ._li.data-v-08d2122b:nth-of-type(2) {
+  background-color: #f589f5;
+}
+.history-hotwords ._li.data-v-08d2122b:nth-of-type(3) {
+  background-color: #f74d5b;
+}
+.history-hotwords ._li.data-v-08d2122b:nth-of-type(4) {
+  background-color: #f5a15d;
+}
+.history-hotwords ._li.data-v-08d2122b:nth-of-type(5) {
+  background-color: #935df5;
+}
+.history-hotwords ._li.data-v-08d2122b:nth-of-type(6) {
+  background-color: #5cd2f2;
+}
+.history-hotwords ._li.data-v-08d2122b:nth-of-type(7) {
+  background-color: #c1f559;
+}
+.history-hotwords ._li.data-v-08d2122b:nth-of-type(8) {
+  background-color: #919;
+}
+.history-list.data-v-08d2122b {
+  color: #333;
+}
+.history-list ._li.data-v-08d2122b {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+.history-list ._li .iconfont.data-v-08d2122b {
+  margin-right: 10px;
+}

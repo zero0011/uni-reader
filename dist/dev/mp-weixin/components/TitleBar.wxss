@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+page.data-v-7d15b514, page.data-v-7d15b514, ._div.data-v-7d15b514, ._span.data-v-7d15b514, applet.data-v-7d15b514, ._object.data-v-7d15b514, ._iframe.data-v-7d15b514, ._h1.data-v-7d15b514, ._h2.data-v-7d15b514, ._h3.data-v-7d15b514, ._h4.data-v-7d15b514, ._h5.data-v-7d15b514, ._h6.data-v-7d15b514, ._p.data-v-7d15b514, ._blockquote.data-v-7d15b514, ._pre.data-v-7d15b514, ._a.data-v-7d15b514, ._abbr.data-v-7d15b514, acronym.data-v-7d15b514, ._address.data-v-7d15b514, big.data-v-7d15b514, ._cite.data-v-7d15b514, ._code.data-v-7d15b514, ._del.data-v-7d15b514, ._dfn.data-v-7d15b514, ._em.data-v-7d15b514, ._img.data-v-7d15b514, ._ins.data-v-7d15b514, ._kbd.data-v-7d15b514, ._q.data-v-7d15b514, ._s.data-v-7d15b514, ._samp.data-v-7d15b514, ._small.data-v-7d15b514, strike.data-v-7d15b514, ._strong.data-v-7d15b514, ._sub.data-v-7d15b514, ._sup.data-v-7d15b514, tt.data-v-7d15b514, ._var.data-v-7d15b514, ._b.data-v-7d15b514, ._u.data-v-7d15b514, ._i.data-v-7d15b514, center.data-v-7d15b514, ._dl.data-v-7d15b514, ._dt.data-v-7d15b514, ._dd.data-v-7d15b514, ._ol.data-v-7d15b514, ._ul.data-v-7d15b514, ._li.data-v-7d15b514, ._fieldset.data-v-7d15b514, form.data-v-7d15b514, label.data-v-7d15b514, ._legend.data-v-7d15b514, ._table.data-v-7d15b514, ._caption.data-v-7d15b514, ._tbody.data-v-7d15b514, ._tfoot.data-v-7d15b514, ._thead.data-v-7d15b514, ._tr.data-v-7d15b514, ._th.data-v-7d15b514, ._td.data-v-7d15b514, ._article.data-v-7d15b514, ._aside.data-v-7d15b514, canvas.data-v-7d15b514, ._details.data-v-7d15b514, ._embed.data-v-7d15b514, ._figure.data-v-7d15b514, ._figcaption.data-v-7d15b514, ._footer.data-v-7d15b514, ._header.data-v-7d15b514, hgroup.data-v-7d15b514, ._menu.data-v-7d15b514, ._nav.data-v-7d15b514, ._output.data-v-7d15b514, ._ruby.data-v-7d15b514, ._section.data-v-7d15b514, ._summary.data-v-7d15b514, ._time.data-v-7d15b514, ._mark.data-v-7d15b514, audio.data-v-7d15b514, video.data-v-7d15b514 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+._article.data-v-7d15b514, ._aside.data-v-7d15b514, ._details.data-v-7d15b514, ._figcaption.data-v-7d15b514, ._figure.data-v-7d15b514, ._footer.data-v-7d15b514, ._header.data-v-7d15b514, hgroup.data-v-7d15b514, ._menu.data-v-7d15b514, ._nav.data-v-7d15b514, ._section.data-v-7d15b514 {
+  display: block;
+}
+page.data-v-7d15b514 {
+  line-height: 1;
+}
+._ol.data-v-7d15b514, ._ul.data-v-7d15b514 {
+  list-style: none;
+}
+._blockquote.data-v-7d15b514, ._q.data-v-7d15b514 {
+  quotes: none;
+}
+._blockquote.data-v-7d15b514:before, ._blockquote.data-v-7d15b514:after, ._q.data-v-7d15b514:before, ._q.data-v-7d15b514:after {
+  content: "";
+  content: none;
+}
+._table.data-v-7d15b514 {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+page.data-v-7d15b514, page.data-v-7d15b514 {
+  width: 100%;
+  height: 100%;
+  font-family: "PingFangSC-Light", "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", "Arial", "sans-serif";
+}
+.icon.data-v-7d15b514 {
+  color: #333;
+  font-size: 0.5333333333rem;
+}
+.slide-down-enter.data-v-7d15b514, .slide-down-leave-to.data-v-7d15b514 {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+}
+.slide-down-enter-to.data-v-7d15b514, .slide-down-leave.data-v-7d15b514, .slide-up-enter-to.data-v-7d15b514, .slide-up-leave.data-v-7d15b514 {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.slide-down-enter-active.data-v-7d15b514, .slide-down-leave-active.data-v-7d15b514, .slide-up-enter-active.data-v-7d15b514, .slide-up-leave-active.data-v-7d15b514, .fade-enter-active.data-v-7d15b514, .fade-leave-active.data-v-7d15b514, .slide-right-enter-active.data-v-7d15b514, .slide-right-leave-active.data-v-7d15b514 {
+  transition: all 0.3s linear;
+}
+.slide-up-enter.data-v-7d15b514, .slide-up-leave-to.data-v-7d15b514 {
+  -webkit-transform: translate3d(0, 2.88rem, 0);
+          transform: translate3d(0, 2.88rem, 0);
+}
+.fade-enter.data-v-7d15b514, .fade-leave-to.data-v-7d15b514 {
+  opacity: 0;
+}
+.fade-enter-to.data-v-7d15b514, .fade-leave.data-v-7d15b514 {
+  opacity: 1;
+}
+.slide-right-enter.data-v-7d15b514, .slide-right-leave-to.data-v-7d15b514 {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+.transition-container.data-v-7d15b514 {
+  position: relative;
+  z-index: 100;
+}
+.title-wrapper.data-v-7d15b514 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  display: flex;
+  width: 100%;
+  height: 3.2rem;
+  background: white;
+  box-shadow: 0 0.2666666667rem 0.2666666667rem rgba(0, 0, 0, 0.15);
+}
+.title-wrapper .left.data-v-7d15b514 {
+  flex: 0 0 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-wrapper .left .icon.data-v-7d15b514 {
+  font-size: 1.0666666667rem;
+}
+.title-wrapper .right.data-v-7d15b514 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.title-wrapper .right .icon-wrapper.data-v-7d15b514 {
+  flex: 0 0 2.1333333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-wrapper .right .icon-wrapper .icon.data-v-7d15b514 {
+  font-size: 1.3333333333rem;
+}

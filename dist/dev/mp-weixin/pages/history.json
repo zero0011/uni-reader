@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "历史页",
+  "usingComponents": {
+    "search-bar": "/components/SearchBar"
+  }
+}
